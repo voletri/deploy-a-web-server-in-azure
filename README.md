@@ -124,6 +124,11 @@ Note: results could be similar to this
 ```
 Apply complete! Resources: 23 added, 0 changed, 0 destroyed.
 ```
-### Output
-**Your words here**
-
+5.Once your resources are no longer required, delete them:
+```
+terraform destroy
+```
+6.Finally, you can delete the resource group:
+```
+az group delete -n packer-rg
+```
